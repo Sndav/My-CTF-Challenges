@@ -1,0 +1,10 @@
+version: "3"
+services:
+    apache-php:
+        build: .
+        ports: 
+            - "10000:80"
+        volumes: 
+            - "./config/000-default.conf:/etc/apache2/sites-enabled/000-default.conf"
+            - "./src/index.php:/var/www/html/index.php"
+            - "./flag:/flag/flag"
