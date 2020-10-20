@@ -1,0 +1,1 @@
+{{config "String" "ctf::flag" ""}}

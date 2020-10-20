@@ -1,0 +1,9 @@
+2020/09/23 03:55:33.765 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2020/09/23 03:55:49.195 [I] [asm_amd64.s:1374]  http server Running on http://:9999
+2020/09/23 03:57:53.301 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2020/09/23 03:58:06.961 [D] [router.go:644]  requestMethod: POST
+2020/09/23 03:58:06.968 [D] [router.go:644]  requestMethod: POST
+2020/09/23 03:58:06.993 [D] [router.go:644]  requestMethod: GET
+2020/09/23 03:58:07.001 [D] [server.go:2843]  |  192.168.110.1|[97;42m 200 [0m|   9.224277ms|   match|[97;44m GET     [0m /api/menu/index   r:/api/menu/index
+2020/09/23 04:00:51.702 [I] [asm_amd64.s:1374]  http server Running on http://:8888
+2020/09/23 04:00:53.929 [I] [asm_amd64.s:1374]  http server Running on http://:8888
